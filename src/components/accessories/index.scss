@@ -1,5 +1,6 @@
 $color_body: #F4F4F2;
-$color_price: #DEDCDA;
+$color_price: grey;
+$base_whitespace: 8px;
 .list{
   display: flex;
   flex-direction: row;
@@ -10,10 +11,15 @@ $color_price: #DEDCDA;
     flex-direction: column;
     width: calc(100% - 4%);
     margin: 2%;
-    padding-bottom: 8px;
-    border-bottom: 1px solid grey;
+    padding-bottom: $base_whitespace;
+    border-bottom: 1px solid $color_price;
     @media screen and (min-width: 480px) {
       width: calc(33% - 4%);
+    }
+
+    .colour-label{
+      font-weight: bold;
+      margin-bottom: $base_whitespace;
     }
 
     .selected-colour{
@@ -38,9 +44,9 @@ $color_price: #DEDCDA;
         cursor: pointer;
         width: 20px;
         height: 20px;
-        border: 1px solid grey;
-        margin-right: 4px;
-        margin-top: 8px;
+        border: 1px solid $color_price;
+        margin-right: $base_whitespace/2;
+        margin-top: $base_whitespace;
         &.selected{
           border: 1px solid black;
         }
