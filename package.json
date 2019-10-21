@@ -5,7 +5,8 @@
   "main": "src/index.js",
   "scripts": {
     "test": "test",
-    "build": "webpack --config webpack.config.js"
+    "build": "webpack --config webpack.config.js",
+    "dev": "webpack --config webpack.config.js --watch"
   },
   "author": "dilan akbiyik",
   "license": "MIT",

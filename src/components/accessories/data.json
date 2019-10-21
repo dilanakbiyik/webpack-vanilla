@@ -1,0 +1,158 @@
+{
+  "AC01": {
+    "id": "AC01",
+    "label": "bugaboo footmuff",
+    "colours": {
+      "001_OR": {
+        "id": "OR",
+        "label": "orange",
+        "pattern": null,
+        "rgb": "#f04d22",
+        "price": "129.95",
+        "currency": "EUR",
+        "src": "https://api.bugaboo.com/v1/studio?code=120OR-X&width=702&frame=1",
+        "itemcode": "AC01001OR"
+      },
+      "002_IB": {
+        "id": "IB",
+        "label": "Ice blue",
+        "pattern": null,
+        "rgb": "#5994c5",
+        "price": "130.95",
+        "currency": "EUR",
+        "src": "https://api.bugaboo.com/v1/studio?code=120IB-X&width=702&frame=1",
+        "itemcode": "AC01002IB"
+      },
+      "003_SP": {
+        "id": "SP",
+        "label": "Soft pink",
+        "pattern": null,
+        "rgb": "#e1a7b2",
+        "price": "131.95",
+        "currency": "EUR",
+        "src": "https://api.bugaboo.com/v1/studio?code=120SP-X&width=702&frame=1",
+        "itemcode": "AC01003SP"
+      }
+    }
+  },
+  "AC02": {
+    "id": "AC02",
+    "label": "bugaboo soft wool blanket",
+    "colours": {
+      "001_LG": {
+        "id": "LG",
+        "label": "Light grey melange",
+        "pattern": "https://apiassets.bugaboo.com/binaries/content/gallery/bugaboocms/swatches/wol_close_swacth-gm-35x35.jpg",
+        "rgb": "",
+        "price": "109.95",
+        "currency": "EUR",
+        "src": "https://apistudioassets.bugaboo.com/virtualstudio/generator.php?code=072LM-X&width=560&frame=1&shadow=0",
+        "itemcode": "AC02001LG"
+      },
+      "002_PB": {
+        "id": "PB",
+        "label": "Petrol blue melange",
+        "pattern": "https://apiassets.bugaboo.com/binaries/content/gallery/bugaboocms/swatches/wol_close_swacth-pb-35x35.jpg",
+        "rgb": "",
+        "price": "110.95",
+        "currency": "EUR",
+        "src": "https://apistudioassets.bugaboo.com/virtualstudio/generator.php?code=072PB-X&width=560&frame=1&shadow=0",
+        "itemcode": "AC02002PB"
+      }
+    }
+  },
+  "AC03": {
+    "id": "AC03",
+    "label": "bugaboo seat liner",
+    "colours": {
+      "001_OG": {
+        "id": "OG",
+        "label": "Olive green",
+        "pattern": "https://apiassets.bugaboo.com/binaries/content/gallery/bugaboocms/swatches/olive-green-bee5-35x35.jpg",
+        "rgb": "",
+        "price": "59.95",
+        "currency": "EUR",
+        "src": "https://apistudioassets.bugaboo.com/virtualstudio/generator.php?code=141OG-X&width=560&frame=1&shadow=0",
+        "itemcode": "AC03001OG"
+      },
+      "002_SP": {
+        "id": "SP",
+        "label": "Soft pink",
+        "pattern": "https://apiassets.bugaboo.com/binaries/content/gallery/bugaboocms/swatches/soft-pink-bee5-35x35.jpg",
+        "rgb": "",
+        "price": "58.95",
+        "currency": "EUR",
+        "src": "https://apistudioassets.bugaboo.com/virtualstudio/generator.php?code=141SP-X&width=560&frame=1&shadow=0",
+        "itemcode": "AC03002SP"
+      }
+    }
+  },
+  "AC04": {
+    "id": "AC04",
+    "label": "bugaboo faux leather upgrade set",
+    "colours": {
+      "001_BL": {
+        "id": "BL",
+        "label": "Black",
+        "pattern": "",
+        "rgb": "000000",
+        "price": "44.50",
+        "currency": "EUR",
+        "src": "https://apistudioassets.bugaboo.com/virtualstudio/generator.php?code=602ZW-X&width=560&frame=1&shadow=0",
+        "itemcode": "AC04001BL"
+      }
+    }
+  },
+  "AC05": {
+    "id": "AC05",
+    "label": "bugaboo breezy sun canopy",
+    "colours": {
+      "001_SP": {
+        "id": "SP",
+        "label": "Soft pink",
+        "pattern": "https://apiassets.bugaboo.com/binaries/content/gallery/bugaboocms/swatches/soft-pink-bee5-35x35.jpg",
+        "rgb": "",
+        "price": "79.50",
+        "currency": "EUR",
+        "src": "https://api.bugaboo.com/v2/studio/configurator?code=n:dky2;cam:product-BSC!o:BSC;c:SP;pos:pdp!rotation:1!w:560&shadow=0",
+        "itemcode": "AC05001SP"
+      },
+      "002_AG": {
+        "id": "AG",
+        "label": "Artic grey",
+        "pattern": "",
+        "rgb": "C8C4BE",
+        "price": "80.50",
+        "currency": "EUR",
+        "src": "https://api.bugaboo.com/v2/studio/configurator?code=n:dky2;cam:product-BSC!o:BSC;c:AG;pos:pdp!rotation:1!w:560&shadow=0",
+        "itemcode": "AC05002AG"
+      }
+    }
+  },
+  "AC06": {
+    "id": "AC06",
+    "label": "bugaboo breezy baby cocoon",
+    "colours": {
+      "001_SY": {
+        "id": "SY",
+        "label": "Sunrise yellow",
+        "pattern": "https://apiassets.bugaboo.com/binaries/content/gallery/bugaboocms/swatches/sunrise-yellow-bee5-35x35.jpg",
+        "rgb": "",
+        "price": "99.95",
+        "currency": "EUR",
+        "src": "https://api.bugaboo.com/v2/studio/configurator?code=n:BEE5;cam:product-BCOCL!o:BCOCL;c:SY;pos:pdp!rotation:1!w:560&shadow=0",
+        "itemcode": "AC06001SY"
+      },
+      "002_BL": {
+        "id": "BL",
+        "label": "Black",
+        "pattern": "",
+        "rgb": "000000",
+        "price": "100.95",
+        "currency": "EUR",
+        "src": "https://api.bugaboo.com/v2/studio/configurator?code=n:BEE5;cam:product-BCOCL!o:BCOCL;c:ZW;pos:pdp!rotation:1!w:560&shadow=0",
+        "itemcode": "AC05002BL"
+      }
+    }
+  }
+}

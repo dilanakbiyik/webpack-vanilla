@@ -1,0 +1,50 @@
+$color_body: #F4F4F2;
+$color_price: #DEDCDA;
+.list{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background: $color_body;
+  .acc{
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 4%);
+    margin: 2%;
+    padding-bottom: 8px;
+    border-bottom: 1px solid grey;
+    @media screen and (min-width: 480px) {
+      width: calc(33% - 4%);
+    }
+
+    .selected-colour{
+      display: flex;
+      flex-direction: column;
+    }
+
+    img{
+      width: 100%;
+    }
+
+    .price{
+      color: $color_price;
+    }
+
+    .colour-options{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      .colour{
+        cursor: pointer;
+        width: 20px;
+        height: 20px;
+        border: 1px solid grey;
+        margin-right: 4px;
+        margin-top: 8px;
+        &.selected{
+          border: 1px solid black;
+        }
+      }
+    }
+  }
+}
