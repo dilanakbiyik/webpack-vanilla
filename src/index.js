@@ -1,6 +1,5 @@
 import './sass/index.scss';
-import Accessories from './components/accessories';
+import Accessories from './components/accessories/accessories';
 
-console.log('test');
-const acc = new Accessories();
-console.log(acc);
+const acc = new Accessories(document.querySelector('body'));
+console.warn(acc);

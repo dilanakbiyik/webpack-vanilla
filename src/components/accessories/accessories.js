@@ -37,7 +37,8 @@ function loadSelectedColour(selectedColour, acc) {
 }
 
 class Accessories {
-  constructor() {
+  constructor(mainElement) {
+    this.mainElement = mainElement;
     this.onClickColour = this.onClickColour.bind(this);
 
     this.accesorries = createList(data);
@@ -52,7 +53,7 @@ class Accessories {
   }
 
   initSelectors() {
-    this.colourArea = document.querySelector(`.${SELECTORS.LIST}`);
+    this.colourArea = this.mainElement.querySelector(`.${SELECTORS.LIST}`);
     this.coloursDOMList = this.colourArea.querySelectorAll(`.${SELECTORS.COLOURS}`);
   }
 
@@ -75,7 +76,7 @@ class Accessories {
   }
 
   createDOM() {
-    document.querySelector('body').innerHTML = this.loadAccArea();
+    this.mainElement.innerHTML = this.loadAccArea();
   }
 
   loadAccArea() {

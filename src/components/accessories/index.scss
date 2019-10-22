@@ -1,7 +1,13 @@
 $color_body: #F4F4F2;
 $color_price: grey;
 $base_whitespace: 8px;
+
+body{
+  background: $color_body;
+}
 .list{
+  height: 100%;
+  width: 100%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -14,12 +20,21 @@ $base_whitespace: 8px;
     padding-bottom: $base_whitespace;
     border-bottom: 1px solid $color_price;
     @media screen and (min-width: 480px) {
-      width: calc(33% - 4%);
+      width: calc(50% - 4%);
     }
 
+    @media screen and (min-width: 712px) {
+    width: calc(33% - 4%);
+  }
+
+    .main-label{
+      font-size: 16px;
+      margin-bottom: $base_whitespace/2;
+    }
     .colour-label{
-      font-weight: bold;
-      margin-bottom: $base_whitespace;
+      font-weight: bolder;
+      margin-bottom: $base_whitespace*2;
+      font-size: 18px;
     }
 
     .selected-colour{
@@ -32,7 +47,9 @@ $base_whitespace: 8px;
     }
 
     .price{
+      font-style: italic;
       color: $color_price;
+      font-size: 18px;
     }
 
     .colour-options{
@@ -40,11 +57,14 @@ $base_whitespace: 8px;
       flex-direction: row;
       align-items: center;
       justify-content: center;
+      margin-bottom: $base_whitespace*2;
+
       .colour{
         cursor: pointer;
         width: 20px;
         height: 20px;
-        border: 1px solid $color_price;
+        border-radius: 50%;
+        border: 1px solid #b2b2b2;
         margin-right: $base_whitespace/2;
         margin-top: $base_whitespace;
         &.selected{
